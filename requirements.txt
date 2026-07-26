@@ -1,0 +1,23 @@
+﻿# ============================================================
+# requirements.txt - Render Gateway
+# No TensorFlow needed - AI runs on Hugging Face
+# Much smaller = faster builds, no memory crashes
+# ============================================================
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0
+# File upload support
+python-multipart==0.0.9
+# Image processing (lightweight)
+Pillow==11.2.1
+# HTTP client to call Hugging Face Space
+requests==2.31.0
+# Audio (text to speech)
+gTTS==2.5.1
+# Environment variables
+python-dotenv==1.0.1
+gradio_client==1.10.0
+
+# ── Disease Repository (Supabase) ──────────────────────────
+# Official Supabase Python SDK (client, storage, postgrest, etc.)
+supabase==2.31.0

@@ -1,0 +1,28 @@
+# Large model artifacts not needed in repo (agrilens_model.h5 is tracked on purpose)
+maize_disease_model.h5
+maize_disease_model_final.h5
+maize_disease_model_v2.h5
+maize_disease_model_v3.h5
+ngrok.exe
+
+# Generated / working images
+*.png
+
+# Python cruft
+__pycache__/
+*.pyc
+
+# Editor / notebook cruft
+.ipynb_checkpoints/
+
+# Misc local-only cruft
+New folder/
+Using
+app_backup.py
+model_engine.py.txt
+model_engine_improved.py
+Maize_disease_model
+maize_dataset/
+plant_disease_dataset/
+plant_disease_dataset_mango_dataset/
+/postcss.config.js
